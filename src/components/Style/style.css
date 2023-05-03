@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #31a0b4;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+}
+
+.top-bar {
+    width: 100%;
+    height: 60px;
+    background: #2f6a8a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+h1 {
+ color: #fff;
+}
+
+.top-bar img {
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.home-img,
+.right-side {
+    margin: 0 20px;
+}
+
+.right-side * {
+margin: 0 10px;
+}
+
+.bannar-image {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+}
+
+.input-cont {
+ text-align: center;
+}
+
+.search-input {
+   margin-top: 120px;
+   width: 40%;
+   padding: 8px 8px;
+   border: none;
+   font-size: 14px;
+}
