@@ -4,8 +4,17 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const countryDataFetch = createAsyncThunk('country', async () => {
  const resp = await fetch('https://restcountries.com/v3.1/all');
  const result = await resp.json();
+ const finalData = result.map((item) => ({
+    name: item.name.common,
+    capital: item.capital,
+    continent: item.continents[0],
+    flag: item.flags.png,
+    population: item.population,
+    map: item.maps.googleMaps,
+    area: item.area,
+ }))
 
- return result;
+ return finalData;
 });
 
 
