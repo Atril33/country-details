@@ -33,6 +33,7 @@ const InfoPage = () => {
           <span>Capital</span>
           {getName.capital ? getName.capital : 'none'}
         </h2>
+        
         <h2 className="info-txt">
           <span>Continent</span>
           {getName.continent ? getName.continent : 'none'}
