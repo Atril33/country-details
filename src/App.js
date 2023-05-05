@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     dispatch(countryDataFetch());
   });
-  
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />

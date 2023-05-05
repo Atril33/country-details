@@ -1,4 +1,4 @@
- import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 
 import setting from '../Images/icon-setting.png';
@@ -6,7 +6,6 @@ import microphone from '../Images/icon-microphone.png';
 import back from '../Images/icon-back.png';
 
 const InfoPage = () => {
-
   const { name } = useParams();
 
   const { countryItem } = useSelector((store) => store.country);
@@ -36,7 +35,6 @@ const InfoPage = () => {
           {getName.capital ? getName.capital : 'none'}
         </h2>
 
-
         <h2 className="info-txt">
           <span>Continent</span>
           {getName.continent ? getName.continent : 'none'}
@@ -59,7 +57,6 @@ const InfoPage = () => {
     </>
 
   );
-  
 };
 
 export default InfoPage;

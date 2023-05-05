@@ -9,7 +9,6 @@ import bannarImage from '../Images/bannar-image.jpg';
 import countryMap from '../Images/country-map.png';
 
 const Home = () => {
-  
   const { countryItem } = useSelector((store) => store.country);
   const [searchingData, setSearchingData] = useState('');
 
@@ -51,7 +50,6 @@ const Home = () => {
             </Link>
           ))}
           ;
-
 
         </div>
       </main>

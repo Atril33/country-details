@@ -1,4 +1,4 @@
- import { render, fireEvent } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import configureMockStore from 'redux-mock-store';
@@ -48,5 +48,4 @@ describe('Home component', () => {
     expect(getByText('Country2')).toBeInTheDocument();
     expect(queryByText('Country1')).not.toBeInTheDocument();
   });
-  
 });

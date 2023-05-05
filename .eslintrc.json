@@ -15,15 +15,10 @@
     "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
     "plugins": ["react"],
     "rules": {
-      "indent": ["error", 2, { "SwitchCase": 1, "ignoredNodes": ["TemplateLiteral"] }],
       "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
       "react/react-in-jsx-scope": "off",
       "import/no-unresolved": "off",
-      "no-shadow": "off",
-      "lines-between-class-members": "off",
-      "no-multiple-empty-lines": "off",
-      "padded-blocks": "off",
-      "no-trailing-spaces": "off"
+      "no-shadow": "off"
     },
     "overrides": [
       {
@@ -35,12 +30,6 @@
     ],
     "ignorePatterns": [
       "dist/",
-      "build/",
-      "Home.jsx",
-      "InfoPage.jsx",
-      "App.test.js",
-      "Home.test.js",
-      "InfoPage.test.js",
-      "index.js"
+      "build/"
     ]
   }
