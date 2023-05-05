@@ -1,70 +1,187 @@
-# Getting Started with Create React App
+<div align="center"><h1>REACT CAPSTONE</h1></div>
+<!-- 
+HOW TO USE : 
+This is an example of how you may give instructions on setting up your project locally.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modify this file to match your project and remove sections that don't apply.
 
-## Available Scripts
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+- Authors
+- Future Features- 
+ - Mobile version design
+- Desktop version design
+- Dynamic HTML for featured-speakers
 
-In the project directory, you can run:
+OPTIONAL SECTIONS:
+- FAQ
 
-### `npm start`
+After you're finished please remove all the comments and instructions!
+-->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <br/>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
 
-### `npm test`
+# 📗 Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [🔭 Future Features](#future-features)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
-### `npm run build`
+<!-- PROJECT DESCRIPTION -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 📖 React Capstone
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> This is a capstone project that uses React and Redux technologies. The website provides detailed information about countries by utilizing an API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Built With <a name="built-with"></a>
+- HTML
+- CSS
+- JS
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run eject`
+> I Used Gitflow, modules, and advanced React, Redux & JS (ES6) in this Capstone Project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+     <li><a href="https://www.w3schools.com/css/">Javascript</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Features -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Features <a name="key-features"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **[React, Redux, Css]**
+- **[Styling css with colors, borders, paddings, margins & sizes, etc]**
+_ **[React, Redux & javascript functions, modules, ES6 syntax, variables, React testing, etc]**
 
-## Learn More
+## 🚀 Live Demo <a href="https://country-details-three.vercel.app/">Live Link</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- GETTING STARTED -->
+<!-- AUTHORS -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Code Splitting
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+In order to run this project you need the following tools:
+- Node.js in your computer
+- IDE(e.g.: Vscode,...)
+- Terminal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Setup
 
-### Making a Progressive Web App
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+  cd your-prefered-folder
+  
+  git clone https://github.com/Atril33/country-details.git
+```
 
-### Advanced Configuration
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Install this project with:
 
+```sh
+  cd react-redux-capstone
+
+  npm install or npm i
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+
+```
+
+
+
+### Usage
+_Run the project on Visual Studio Code Live Server._
+<!--
+Example command:
+
+```sh
+  rails server
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
+Not Yet
+<!--
+Example:
 
-### `npm run build` fails to minify
+```sh
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+ -->
+
+# <a name="authors">Syed Atril</a>
+
+👤 **Syed Atril**
+
+- GitHub: [@githubhandle](https://github.com/Atril33)
+- Twitter: [@twitterhandle](https://twitter.com/AtrilSyed)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
+- Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [x] **[I will Add API for the quotes generator function]**
+- [x] **[I will Deploy this page after completing all things]**
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your support <a name="support"></a>
+
+> If you like this project feel comfortable to endorse the authors. Give a star in github repository.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> I would like to thanks and give appropriate credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), for the design inspiration as required by the [Creative Commons License](https://creativecommons.org/licenses/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+> This project has [MIT license](https://github.com/Atril33/math-magicians/blob/development/LICENSE)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
