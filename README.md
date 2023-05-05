@@ -1,4 +1,5 @@
-<div align="center"><h1>REACT CAPSTONE</h1></div>
+<div align="center"><h1>REACT CAPSTONE</h1>
+<img src="https://github.com/Atril33/country-details/blob/country/Live%20Preview.png"></div>
 <!-- 
 HOW TO USE : 
 This is an example of how you may give instructions on setting up your project locally.
