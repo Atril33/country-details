@@ -78,26 +78,26 @@ h1 {
 }
 
 .status-txt {
- margin-left: 30px;
+  margin-left: 30px;
 }
 
 .country-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 1px;
-    margin-top: 1px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1px;
+  margin-top: 1px;
 }
 
 .country-item {
   position: relative;
-    background: #215f81;
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
+  background: #215f81;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
 }
 
 .country-item:nth-child(even) {
-    background: #2f6a8a;
+  background: #2f6a8a;
 }
 
 .map-image {
@@ -114,8 +114,8 @@ h1 {
 
 .country-name,
 .country-population {
- color: #fff;
- margin: 5px 0;
+  color: #fff;
+  margin: 5px 0;
 }
 
 .country-name {
@@ -126,34 +126,31 @@ h1 {
   font-weight: 400;
 }
 
- /* InfoPage.jsx */
+/* InfoPage.jsx */
 
 .info-container {
- width: 100%;
- margin: 100px 0;
+  width: 100%;
+  margin: 100px 0;
 }
 
-.info-container,
-.info-txt:nth-child(even) {
+.info-container h2:nth-child(even) {
   background: #215f81;
 }
 
-.info-container,
-.info-txt:nth-child(odd) {
+.info-container h2:nth-child(odd) {
   background: #31a0b4;
 }
-
 
 .image-container {
   text-align: center;
 }
 
 .info-statusBar {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .info-statusTxt {
- margin-left: 10px;
+  margin-left: 10px;
 }
 
 .flag-image {
@@ -162,11 +159,11 @@ h1 {
 }
 
 .info-txt {
- padding: 15px;
- font-size: 16px;
- font-weight: 500;
- text-align: right;
- color: #fff;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  color: #fff;
 }
 
 .info-txt a {
@@ -175,17 +172,14 @@ h1 {
 }
 
 span {
- position: absolute;
- left: 10px;
- color: #000;
+  position: absolute;
+  left: 10px;
+  color: #000;
 }
-
-
-
 
 @media screen and (max-width: 768px) {
   .top-bar {
-     height: 50px;
+    height: 50px;
   }
 
   .top-bar img {
@@ -193,26 +187,27 @@ span {
   }
 
   h1 {
-   font-size: 17px;
+    font-size: 17px;
   }
 
-  .bannar-image  {
-   height: 200px;
+  .bannar-image {
+    height: 200px;
   }
 
-  .search-input  {
-   width: 80%;
-   margin-top: 80px;
+  .search-input {
+    width: 80%;
+    margin-top: 80px;
   }
 
-.status-bar {
-  margin-top: -149px;
-}
-.country-container {
-  grid-template-columns: auto auto;
-}
-.map-image {
-  width: 140px;
-}
+  .status-bar {
+    margin-top: -149px;
+  }
 
+  .country-container {
+    grid-template-columns: auto auto;
+  }
+
+  .map-image {
+    width: 140px;
+  }
 }
