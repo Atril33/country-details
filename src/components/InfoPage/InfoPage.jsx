@@ -10,6 +10,7 @@ const InfoPage = () => {
 
   const { countryItem } = useSelector((store) => store.country);
   const getName = countryItem.find((item) => item.name === name);
+
   return (
     <>
       <div className="top-bar">
@@ -33,6 +34,7 @@ const InfoPage = () => {
           <span>Capital</span>
           {getName.capital ? getName.capital : 'none'}
         </h2>
+
         <h2 className="info-txt">
           <span>Continent</span>
           {getName.continent ? getName.continent : 'none'}
@@ -46,12 +48,14 @@ const InfoPage = () => {
           {getName.area ? getName.area : 'none'}
           km²
         </h2>
+
         <h2 className="info-txt">
           <span>Google Map</span>
           <a href={getName.map}>Map</a>
         </h2>
       </div>
     </>
+
   );
 };
 

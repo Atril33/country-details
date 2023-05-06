@@ -16,6 +16,7 @@ describe('Home component', () => {
         ],
       },
     });
+
     render(
       <Provider store={store}>
         <BrowserRouter>
@@ -34,6 +35,7 @@ describe('Home component', () => {
         ],
       },
     });
+
     const { getByText, queryByText, getByPlaceholderText } = render(
       <Provider store={store}>
         <BrowserRouter>

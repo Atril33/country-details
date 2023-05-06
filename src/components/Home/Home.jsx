@@ -5,7 +5,6 @@ import '../Style/style.css';
 import home from '../Images/Icon-home.png';
 import microphone from '../Images/icon-microphone.png';
 import setting from '../Images/icon-setting.png';
-import bannarImage from '../Images/bannar-image.jpg';
 import countryMap from '../Images/country-map.png';
 
 const Home = () => {
@@ -23,6 +22,7 @@ const Home = () => {
   return (
     <>
       <header>
+
         <div className="top-bar">
           <img src={home} alt="Home Icon" className="home-img" />
           <h1>Countries</h1>
@@ -31,7 +31,7 @@ const Home = () => {
             <img src={setting} alt="Setting Icon" />
           </div>
         </div>
-        <img src={bannarImage} alt="World Map" className="bannar-image" />
+        <img src={countryMap} alt="World Map" className="bannar-image" />
         <div className="input-cont">
           <input type="text" placeholder="🔍 Search Country" value={searchingData} onChange={handledata} className="search-input" />
         </div>
@@ -52,6 +52,7 @@ const Home = () => {
 
         </div>
       </main>
+
     </>
   );
 };

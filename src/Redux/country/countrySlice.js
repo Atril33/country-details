@@ -20,6 +20,7 @@ const initialState = {
   countryItem: [],
   loading: false,
   error: null,
+
 };
 
 const countrySlice = createSlice({
