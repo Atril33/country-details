@@ -30,7 +30,69 @@ exports[`App component Should match snapshot 1`] = `
     <img
       alt="World Map"
       class="bannar-image"
-      src="country-map.png"
+      src="bannar-image.jpg"
+    />
+    <div
+      class="input-cont"
+    >
+      <input
+        class="search-input"
+        placeholder="🔍 Search Country"
+        type="text"
+        value=""
+      />
+    </div>
+  </header>
+  <main>
+    <div
+      class="status-bar"
+    >
+      <h2
+        class="status-txt"
+      >
+        Status by country
+      </h2>
+    </div>
+    <div
+      class="country-container"
+    >
+      ;
+    </div>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`App component should match snapshot 1`] = `
+<DocumentFragment>
+  <header>
+    <div
+      class="top-bar"
+    >
+      <img
+        alt="Home Icon"
+        class="home-img"
+        src="Icon-home.png"
+      />
+      <h1>
+        Countries
+      </h1>
+      <div
+        class="right-side"
+      >
+        <img
+          alt="Microphone Icon"
+          src="icon-microphone.png"
+        />
+        <img
+          alt="Setting Icon"
+          src="icon-setting.png"
+        />
+      </div>
+    </div>
+    <img
+      alt="World Map"
+      class="bannar-image"
+      src="bannar-image.jpg"
     />
     <div
       class="input-cont"
