@@ -1,4 +1,3 @@
-<div align="center"><h1>REACT CAPSTONE</h1>
 <img src="https://github.com/Atril33/country-details/blob/dev/Live%20Preview.png"></div>
 <!-- 
 HOW TO USE : 
