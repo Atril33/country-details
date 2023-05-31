@@ -47,7 +47,7 @@ const Home = () => {
                 <h3 className="country-population">{data.population}</h3>
               </div>
             </Link>
-          ))}
+          ))};
           
         </div>
       </main>
