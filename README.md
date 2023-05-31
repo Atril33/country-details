@@ -116,7 +116,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to say thanks to everyone who contribute to this project...
+I would like to thanks and give appropriate credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), for the design inspiration as required by the [Creative Commons License](https://creativecommons.org/licenses/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
