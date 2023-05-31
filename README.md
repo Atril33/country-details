@@ -19,7 +19,7 @@
 
 # 📖 Country Info App <a name="about-project"></a>
 
-> The Country Info App is a fantastic application built using React, Redux, and CSS. It allows users to explore information about different countries around the world. By connecting to the rest countries API, the app retrieves accurate and up-to-date data, providing users with a comprehensive resource to learn about various nations.
+> The Country Info App is a fantastic application built using React, Redux, and CSS. It allows users to explore information about different countries around the world. By connecting to the [Rest Countries API](https://restcountries.com/v3.1/all), the app retrieves accurate and up-to-date data, providing users with a comprehensive resource to learn about various nations.
 ## 🛠 Built With <a name="built-with"></a>
 <details>
   <summary>Client</summary>
