@@ -1,160 +1,106 @@
-<img src="https://github.com/Atril33/country-details/blob/dev/Live%20Preview.png"></div>
-<!-- 
-HOW TO USE : 
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-- Authors
-- Future Features- 
- - Mobile version design
-- Desktop version design
-- Dynamic HTML for featured-speakers
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
+<a name="readme-top"></a>
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <br/>
-</div>
-
+  <img src="https://github.com/Atril33/country-details/blob/dev/Live%20Preview.png" width="650px" height="350px" />
+  </div>
+  
 <!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
+- [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [🔭 Future Features](#future-features)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Math Megican <a name="about-project"></a>
 
-# 📖 React Capstone
-
-> This is a capstone project that uses React and Redux technologies. The website provides detailed information about countries by utilizing an API.
+> Math Megicann is a simple app that uses React.js to help with basic math problems. It also has educational quotes that make it fun and engaging for users.
 
 ## 🛠 Built With <a name="built-with"></a>
-- HTML
-- CSS
-- JS
-### Tech Stack <a name="tech-stack"></a>
-
-> I Used Gitflow, modules, and advanced React, Redux & JS (ES6) in this Capstone Project.
-
 <details>
-  <summary>HTML</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+     <li><a href="https://react.dev/">React</a></li>
      <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-     <li><a href="https://www.w3schools.com/css/">Javascript</a></li>
   </ul>
 </details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[React, Redux, Css]**
-- **[Styling css with colors, borders, paddings, margins & sizes, etc]**
-_ **[React, Redux & javascript functions, modules, ES6 syntax, variables, React testing, etc]**
+- **Responsive Design**
+- **Calculator**
+- **Use API For Educational Quotes**
 
-## 🚀 Live Demo <a href="https://country-details-2638nyvyi-atril33.vercel.app/">Live Link</a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://math-magicians-1hc0hih6a-atril33.vercel.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-<!-- AUTHORS -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
-In order to run this project you need the following tools:
-- Node.js in your computer
-- IDE(e.g.: Vscode,...)
-- Terminal
+In order to run this project you need:
+- **A PC with any Browser (Chrome, Opera, & FireFox, etc)**
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-```sh
-  cd your-prefered-folder
-  
-  git clone https://github.com/Atril33/country-details.git
+``` bash
+  https://github.com/Atril33/math-magicians.git
 ```
 
 ### Install
-
-- Install this project with:
-
+In order to check tests:
 ```sh
-  cd react-redux-capstone
-
-  npm install or npm i
+  npm i
 ```
-
-### Usage
-
-To run the project, execute the following command:
-
 ```sh
   npm start
+```
+### Run tests
 
+To run tests, run the following command:
+<br>
+_Check Stylelint errors_
+```sh
+  npx stylelint "**/*.{css,scss}"
 ```
 
-
-
-### Usage
-_Run the project on Visual Studio Code Live Server._
-<!--
-Example command:
-
+_Check ESLint errors_
 ```sh
-  rails server
-### Deployment
-
-You can deploy this project using:
-Not Yet
-<!--
-Example:
-
-```sh
-
+  npx eslint "**/*.{js,jsx}".
 ```
- -->
+_Check Tests_ 
+```sh
+  npm run test
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# <a name="authors">Author</a>
+<!-- AUTHORS -->
 
+## 👥 Authors <a name="authors"></a>
 👤 **Syed Atril**
 
 - GitHub: [@githubhandle](https://github.com/Atril33)
 - Twitter: [@twitterhandle](https://twitter.com/AtrilSyed)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
-- Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [x] **[I will Add API for the quotes generator function]**
-- [x] **[I will Deploy this page after completing all things]**
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -163,17 +109,13 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## ⭐️ Show your support <a name="support"></a>
-
-> If you like this project feel comfortable to endorse the authors. Give a star in github repository.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thanks and give appropriate credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), for the design inspiration as required by the [Creative Commons License](https://creativecommons.org/licenses/by/4.0/)
+I would like to say thanks to everyone who contribute to this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,7 +123,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-> This project has [MIT license](https://github.com/Atril33/math-magicians/blob/development/LICENSE)
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
