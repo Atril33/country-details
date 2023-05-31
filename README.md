@@ -17,7 +17,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Math Megican <a name="about-project"></a>
+# 📖 Country Info App <a name="about-project"></a>
 
 > Math Megicann is a simple app that uses React.js to help with basic math problems. It also has educational quotes that make it fun and engaging for users.
 
@@ -26,7 +26,9 @@
   <summary>Client</summary>
   <ul>
      <li><a href="https://react.dev/">React</a></li>
+     <li><a href="https://redux.js.org/">Redux</a></li>
      <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+
   </ul>
 </details>
 <!-- Features -->
@@ -34,8 +36,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **Responsive Design**
-- **Calculator**
-- **Use API For Educational Quotes**
+- **Countries Information**
+- **Use API For Fetching Country Data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,7 +45,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://math-magicians-1hc0hih6a-atril33.vercel.app/)
+- [Live Demo Link](https://country-details-2638nyvyi-atril33.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +62,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 ``` bash
-  https://github.com/Atril33/math-magicians.git
+  https://github.com/Atril33/country-details.git
 ```
 
 ### Install
