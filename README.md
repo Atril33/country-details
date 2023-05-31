@@ -19,8 +19,7 @@
 
 # 📖 Country Info App <a name="about-project"></a>
 
-> Math Megicann is a simple app that uses React.js to help with basic math problems. It also has educational quotes that make it fun and engaging for users.
-
+> The Country Info App is a fantastic application built using React, Redux, and CSS. It allows users to explore information about different countries around the world. By connecting to the rest countries API, the app retrieves accurate and up-to-date data, providing users with a comprehensive resource to learn about various nations.
 ## 🛠 Built With <a name="built-with"></a>
 <details>
   <summary>Client</summary>
