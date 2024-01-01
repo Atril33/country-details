@@ -5,6 +5,8 @@ import setting from '../Images/icon-setting.png';
 import microphone from '../Images/icon-microphone.png';
 import back from '../Images/icon-back.png';
 
+import MoreCountry from './MoreCountry';
+
 const InfoPage = () => {
   const { name } = useParams();
 
@@ -54,6 +56,7 @@ const InfoPage = () => {
           <a href={getName.map}>Map</a>
         </h2>
       </div>
+      <MoreCountry nearCountry={getName} />
     </>
 
   );
